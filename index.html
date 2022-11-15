@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tugas</title>
+<style>
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+    background-color: #8C8372;
+    min-height: 230px;
+}
+
+.header img {
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.header h1 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;s
+	line-height: 40px;
+	margin: 0;
+}
+
+.header h1 span {
+	color: #5383d3;
+}
+
+.header p {
+    font-family: "Lucida Console", Monaco, monospace;
+    color: white;
+    font-size: 20px;
+    float: left;
+}
+
+.nav {
+    background-color: #3B4014;
+    text-align: center;
+    display: grid;
+    gap: 20px 50px;
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    margin: 2px 0;
+    min-height: 30px;
+    direction: rtl;
+    gap: 1rem;
+    padding: 1rem;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.ul li {
+    margin: 0 20px;
+}
+
+.equal-height-container {
+  max-width: 1200px;
+  margin: 20px 10px 20px auto;
+  background-color: #FFF;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.first {
+  padding: 20px;
+  flex: 1;
+}
+
+.second {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.second-a {
+    border-radius: 25px;
+    width: 460px;
+    height: auto;
+    padding: 10px;
+    background-color: #8C8372;
+    color: #f2e8d5;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    flex: 1;
+}
+
+.second-b {
+    border-radius: 25px;
+    width: 460px;
+    height: auto;
+    padding: 10px;
+    background-color: #8C8372;
+    color: #f2e8d5;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    flex: 1;
+}
+
+.navi {
+    display: inline-flex;
+    background-color: #26130D;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: white;
+    min-height: 20px;
+    position: relative;
+    left: 20px;
+}
+
+
+.hadeh::first-letter {
+    font-size: 500%;
+    color: #0D0000;
+    font-family: Impact, Charcoal, sans-serif;
+    letter-spacing: 2px;
+    padding: 6px 3px;
+    margin-right: 6px;
+    float: left;
+}
+
+table {
+    border-collapse:collapse;
+    table-layout: fixed;
+    width: 900px;
+    text-align:center;
+}
+
+table, th, td{
+    border:2px solid grey;
+}
+
+th, td {
+    width: 100px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th{
+    background-color:#0D0000;
+    color:white;
+}
+
+table#table1 {
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+  }
+  
+.hadeh2 {
+    border-radius: 25px;
+    width: 400px;
+    padding: 10px;
+    margin: 20px auto 20px auto;
+    background-color: #8C8372;
+    color: black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+input[type=text], select {
+    width: 90%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 90%;
+    background-color: #2a2417;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+input[type=submit]:hover {
+  opacity: 0.5;
+  background-color: white;
+  color: #2a2417;
+}
+
+.futer {
+    position: relative;
+    background-color: #D3D3D3;
+    min-height: 50px;
+  margin: 40px auto 40px auto;
+  background-color: #2a2a2a;
+  display: flex;
+}
+
+.stel {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-transform: uppercase;
+    color:#6495ED;
+    font-weight: 700;
+  margin: auto;
+}
+
+
+</style>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<div class="header">
+    <h1>Nabila <span>Muthia Putri</span></h1>
+    <p>I am a student in Informatics Engineering at Institute Technology of Sumatra (ITERA)</p>
+    <img src="fotonala.jpg" alt="logo">
+</div>
+	
+<nav class="nav">
+	<ul class="ul">
+		<li><a href="#" style="color: white;">tentang saya</a></li>
+		<li><a href="#" style="color: white;">pengalaman</a></li>
+        <li><a href="#" style="color: white;">hubungi saya</a></li>
+	</ul>
+</nav>
+
+<main>
+	<section>
+		<h3 class="navi">#tentang saya</h3>
+        <div class="equal-height-container">
+         <div class="second">
+            <div class="second-a">My main strengths are: I can adapt quickly depending on the environment. I am a fast learner, I can work under pressure, I will always give my best to something I am working on, and I always seek an opportunity to learn everything to gain new experiences.</div>
+            <div class="second-b">I am a team player with great organizational experience. I am able to deal with problems calmly. I have tons of fresh ideas that will amuse a lot of people. I am able to process database with MySQL. I am able to make a simple program with Python for daily use.</div>
+        </div>
+        <figure class="first">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GawFsqbNTXE"></iframe>
+            <figcaption align="center">Video saya untuk tugas Socio Informatika</figcaption>
+        </figure>
+        </div>
+    </section>
+          
+    <section>
+        <h3 class="navi">#pengalaman</h3>
+            <table id="table1">
+                <thead>
+                <tr>
+                <th rowspan="2">no</th>
+                <th rowspan="2">posisi</th>
+                <th rowspan="2">perusahaan</th>
+                <th colspan="2">waktu</th>
+                </tr>
+
+                <th>mulai</th>
+                <th>selesai</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                    <td>1</td>
+                    <td>Content Writer</td>
+                    <td>Ti Amo</td>
+                    <td>2020</td>
+                    <td>2021</td>
+                    </tr>
+                    <tr>
+                    <td>2</td>
+                    <td>Content Creator</td>
+                    <td>nals.thread</td>
+                    <td>2021</td>
+                    <td>2022</td>
+                    </tr>
+                    <tr>
+                    <td>3</td>
+                    <td>Volunteer</td>
+                    <td>UNW</td>
+                    <td>2022</td>
+                    <td>2022</td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>  
+        
+    <section>
+        <h3 class="navi">#hubungi saya</h3>
+            <div class="hadeh2">
+            <form action="#" method="">
+            <label for="name">nama:</label>
+            <input type="text" name="nama" id="name" placeholder="Masukkan nama lengkap anda">
+            </form>
+
+            <p>pilihan kontak lebih lanjut melalui:</p>
+            <form action="#" method="">
+            <input type="radio" name="prefer" id="email" value="E-mail">
+            <label for="email">E-mail</label>
+            <br>
+            <input type="radio" name="prefer" id="wa" value="Whatsapp">
+            <label for="wa">Whatsapp</label>
+            <br>
+            </form>
+
+            <p>sosial media saya</p>
+            <form action="#" method="">
+            <input type="checkbox" name="sosmed" id="ig" value="Instagram">
+            <label for="ig">Instagram</label>
+            <br>
+            <input type="checkbox" name="sosmed" id="tiktok" value="TikTok">
+            <label for="tiktok">TikTok</label>
+            <br>
+            <input type="checkbox" name="sosmed" id="yt" value="YouTube">
+            <label for="yt">YouTube</label>
+            </form>
+            <input type="submit" value="Submit">
+            </div>
+    </section>
+</main>     
+           
+<footer class="futer">
+    <p class="stel">end of page.</p>
+</footer> 
+</body>
+</html>
